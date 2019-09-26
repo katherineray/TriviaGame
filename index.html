@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Trivia Game</title>
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -14,6 +16,19 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- Jumbotron -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Trivia Game</h1>
+        <button class="btn btn-primary">Start Game</button>
+      </div>
+      <!-- Trivia Game Clock -->
+      <h2 id="time"></h2>
+      <!-- jQuery Data Dump -->
+      <div id="game"></div>
+    </div>
+
+    <!-- jQuery CDN -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
