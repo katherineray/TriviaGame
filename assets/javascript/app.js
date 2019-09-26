@@ -1,1 +1,1 @@
-console.log("Question2");
+console.log($);
