@@ -22,4 +22,6 @@ function loadChoices(choices) {
  		}
     return result;
 
-loadQuestion(); //calling Question
+loadQuestion(); //THIS IS BREAKING my page, i am unable to discover the root cause as it was working earlier
+				 //I have worked on this with class mates and they are unable to figure our why this is breaking
+		 		//I will need to review the breakpoint with instructor/TA because if my method is faulty 
